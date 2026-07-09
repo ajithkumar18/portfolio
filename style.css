@@ -211,3 +211,151 @@ nav ul li a:hover{
 .project-card:hover{
     transform:translateY(-8px);
 }
+/* ===========================
+   Certifications
+=========================== */
+
+#certifications ul{
+    max-width:700px;
+    margin:0 auto;
+    list-style:none;
+    padding:0;
+}
+
+#certifications li{
+    background:#1e293b;
+    margin:15px 0;
+    padding:18px 20px;
+    border-left:5px solid #38bdf8;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+#certifications li:hover{
+    transform:translateX(8px);
+    background:#334155;
+}
+
+/* ===========================
+   Contact
+=========================== */
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    margin:15px 0;
+    font-size:1.05rem;
+}
+
+#contact a{
+    color:#38bdf8;
+}
+
+#contact a:hover{
+    text-decoration:underline;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111827;
+    color:#94a3b8;
+    margin-top:40px;
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0f172a;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#38bdf8;
+    border-radius:10px;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:900px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:18px;
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding-top:180px;
+    }
+
+    .hero-text h1{
+        font-size:2.5rem;
+    }
+
+    .hero-text h2{
+        text-align:center;
+    }
+
+    .hero-text p{
+        margin:auto;
+        margin-top:20px;
+        margin-bottom:30px;
+    }
+
+    .hero-image img{
+        width:220px;
+        height:220px;
+    }
+
+    section{
+        padding:70px 8%;
+    }
+}
+
+@media (max-width:600px){
+
+    h2{
+        font-size:1.7rem;
+    }
+
+    .hero-text h1{
+        font-size:2rem;
+    }
+
+    .hero-text h3{
+        font-size:1.1rem;
+    }
+
+    .btn{
+        display:inline-block;
+        width:100%;
+        text-align:center;
+    }
+
+    .skill-container,
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+}
