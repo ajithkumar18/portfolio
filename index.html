@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Ajith Kumar | DevOps Engineer</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -19,53 +21,49 @@
     <!-- Navigation -->
 
     <nav>
-        <div class="logo">
-            Ajith Kumar
-        </div>
+        <div class="logo">Ajith Kumar</div>
 
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
 
+    </nav>
 
     <!-- Hero -->
 
     <section id="home" class="hero">
 
-        <div class="hero-content">
+        <div class="hero-text">
 
-            <h3>Hello 👋 I'm</h3>
+            <h3>Hello, I'm</h3>
 
             <h1>Ajith Kumar</h1>
 
             <h2>DevOps Engineer</h2>
 
             <p>
-                Passionate DevOps Engineer specializing in Azure Cloud,
-                Docker, Kubernetes, Terraform, Jenkins and CI/CD Automation.
+                Passionate about Cloud, Azure, Kubernetes, Docker,
+                CI/CD, Infrastructure Automation and DevOps best practices.
             </p>
 
-            <div class="buttons">
+            <a href="assets/resume.pdf" class="btn" download>
+                Download Resume
+            </a>
 
-                <a href="assets/resume.pdf" class="btn" download>
-                    Download Resume
-                </a>
+        </div>
 
-                <a href="#contact" class="btn-outline">
-                    Contact Me
-                </a>
+        <div class="hero-image">
 
-            </div>
+            <img src="assets/profile.jpg" alt="Ajith Kumar">
 
         </div>
 
     </section>
-
 
     <!-- About -->
 
@@ -74,37 +72,41 @@
         <h2>About Me</h2>
 
         <p>
-            I am a DevOps Engineer who enjoys automating infrastructure,
-            deploying scalable cloud applications, and improving software
-            delivery using modern DevOps practices.
+            I am a DevOps Engineer with experience in Azure Cloud,
+            Docker, Kubernetes, Terraform, Jenkins and Linux.
+            I enjoy building automated deployment pipelines,
+            managing cloud infrastructure and improving application reliability.
         </p>
 
     </section>
-
 
     <!-- Skills -->
 
     <section id="skills">
 
-        <h2>Skills</h2>
+        <h2>Technical Skills</h2>
 
-        <div class="skills-grid">
+        <div class="skill-container">
 
-            <div class="card">Azure</div>
-            <div class="card">Docker</div>
-            <div class="card">Kubernetes</div>
-            <div class="card">Linux</div>
-            <div class="card">Terraform</div>
-            <div class="card">Jenkins</div>
-            <div class="card">Git</div>
-            <div class="card">Azure DevOps</div>
-            <div class="card">GitHub Actions</div>
-            <div class="card">Ansible</div>
+            <div class="skill-card"><i class="fab fa-microsoft"></i> Azure</div>
+
+            <div class="skill-card"><i class="fab fa-docker"></i> Docker</div>
+
+            <div class="skill-card"><i class="fas fa-network-wired"></i> Kubernetes</div>
+
+            <div class="skill-card"><i class="fab fa-linux"></i> Linux</div>
+
+            <div class="skill-card"><i class="fab fa-jenkins"></i> Jenkins</div>
+
+            <div class="skill-card"><i class="fas fa-server"></i> Terraform</div>
+
+            <div class="skill-card"><i class="fab fa-git-alt"></i> Git</div>
+
+            <div class="skill-card"><i class="fab fa-github"></i> GitHub</div>
 
         </div>
 
     </section>
-
 
     <!-- Projects -->
 
@@ -115,54 +117,68 @@
         <div class="project-grid">
 
             <div class="project-card">
-                <h3>AKS Deployment</h3>
-                <p>
-                    Deploy applications to Azure Kubernetes Service
-                    using Azure DevOps Pipelines.
-                </p>
+                <h3>Azure AKS Deployment</h3>
+                <p>Automated application deployment to Azure Kubernetes Service using Azure DevOps.</p>
             </div>
 
             <div class="project-card">
-                <h3>Terraform Infrastructure</h3>
-                <p>
-                    Provision Azure Infrastructure using Terraform.
-                </p>
+                <h3>Terraform Automation</h3>
+                <p>Provisioned Azure resources using Infrastructure as Code.</p>
             </div>
 
             <div class="project-card">
-                <h3>Docker CI/CD</h3>
-                <p>
-                    Build and deploy Docker containers using Jenkins.
-                </p>
+                <h3>CI/CD Pipeline</h3>
+                <p>Implemented Jenkins pipeline for automated build, testing and deployment.</p>
             </div>
 
         </div>
 
     </section>
 
+    <!-- Certifications -->
+
+    <section id="certifications">
+
+        <h2>Certifications</h2>
+
+        <ul>
+
+            <li>Microsoft Azure Fundamentals (AZ-900)</li>
+
+            <li>Azure Administrator (AZ-104)</li>
+
+            <li>Terraform Associate (Optional)</li>
+
+        </ul>
+
+    </section>
 
     <!-- Contact -->
 
     <section id="contact">
 
-        <h2>Contact</h2>
+        <h2>Let's Connect</h2>
 
         <p>Email : yourmail@gmail.com</p>
 
-        <p>GitHub :
-            <a href="https://github.com/ajithkumar18">
+        <p>
+            <i class="fab fa-github"></i>
+
+            <a href="https://github.com/ajithkumar18" target="_blank">
                 github.com/ajithkumar18
             </a>
         </p>
 
-        <p>LinkedIn :
+        <p>
+            <i class="fab fa-linkedin"></i>
+
             <a href="#">
-                Add your LinkedIn URL
+                LinkedIn Profile
             </a>
+
         </p>
 
     </section>
-
 
     <footer>
 
@@ -174,4 +190,4 @@
 
 </body>
 
-</html>
+</html>    
