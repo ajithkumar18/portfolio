@@ -1,0 +1,213 @@
+/* ===========================
+   Google Font & Reset
+=========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f172a;
+    color:#f8fafc;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2rem;
+    color:#38bdf8;
+}
+
+/* ===========================
+   Navigation
+=========================== */
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#111827;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 10%;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,.3);
+}
+
+.logo{
+    font-size:1.5rem;
+    font-weight:700;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* ===========================
+   Hero
+=========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+    padding-top:120px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h3{
+    font-size:1.4rem;
+    color:#38bdf8;
+}
+
+.hero-text h1{
+    font-size:3.5rem;
+    margin:10px 0;
+}
+
+.hero-text h2{
+    text-align:left;
+    margin:0;
+    color:#94a3b8;
+}
+
+.hero-text p{
+    margin:25px 0;
+    max-width:550px;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.btn{
+    display:inline-block;
+    background:#38bdf8;
+    color:#0f172a;
+    padding:14px 30px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    background:#0ea5e9;
+}
+
+/* ===========================
+   Hero Image
+=========================== */
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #38bdf8;
+    box-shadow:0 0 30px rgba(56,189,248,.4);
+}
+
+/* ===========================
+   About
+=========================== */
+
+#about p{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+    color:#cbd5e1;
+}
+
+/* ===========================
+   Skills
+=========================== */
+
+.skill-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:25px;
+    text-align:center;
+    border-radius:12px;
+    transition:.3s;
+    font-size:1.1rem;
+}
+
+.skill-card i{
+    display:block;
+    font-size:2rem;
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    background:#334155;
+}
+
+/* ===========================
+   Projects
+=========================== */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
